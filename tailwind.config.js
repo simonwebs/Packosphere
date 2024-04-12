@@ -1,16 +1,19 @@
+// tailwind.config.js
+
 const colors = require('tailwindcss/colors');
 const forms = require('@tailwindcss/forms');
+
 module.exports = {
-  purge: [
-    './imports/ui/**/*.tsx',
+  content: [
+    './imports/ui/**/*.{html,js,jsx,tsx}', // Simplified glob pattern
     './client/**/*.html',
   ],
-  darkMode: false, // or 'media' or 'class'
+  darkMode: 'class', // or 'media' or 'class'
   theme: {
     extend: {
       colors: {
-        blueGray: colors.blueGray,
-        coolGray: colors.coolGray,
+        slate: colors.slate,
+        gray: colors.gray,
       },
     },
   },

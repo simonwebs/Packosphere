@@ -8,7 +8,206 @@
       "meteor/cultofcoders:grapher-react": [
         "packages/grapher-react/main.client.js",
         "packages/grapher-react/main.server.js"
+      ],
+      "/*": [
+        "./*"
+      ],
+      "meteor/mongo": [
+        "/home/simon/.meteor/packages/mongo/1.16.9/web.browser/local_collection_driver.js",
+        "/home/simon/.meteor/packages/mongo/1.16.9/web.browser/collection.js",
+        "/home/simon/.meteor/packages/mongo/1.16.9/web.browser/connection_options.js",
+        "/home/simon/.meteor/packages/mongo/1.16.9/web.browser/doc_fetcher.js",
+        "/home/simon/.meteor/packages/mongo/1.16.9/web.browser/mongo_driver.js",
+        "/home/simon/.meteor/packages/mongo/1.16.9/web.browser/mongo_utils.js",
+        "/home/simon/.meteor/packages/mongo/1.16.9/web.browser/observe_multiplex.js",
+        "/home/simon/.meteor/packages/mongo/1.16.9/web.browser/oplog_observe_driver.js",
+        "/home/simon/.meteor/packages/mongo/1.16.9/web.browser/oplog_tailing.js",
+        "/home/simon/.meteor/packages/mongo/1.16.9/web.browser/oplog_v2_converter.js",
+        "/home/simon/.meteor/packages/mongo/1.16.9/web.browser/polling_observe_driver.js",
+        "/home/simon/.meteor/packages/mongo/1.16.9/web.browser/remote_collection_driver.js"
+      ],
+      "meteor/reactive-var": [
+        "/home/simon/.meteor/packages/reactive-var/1.0.12/web.browser/reactive-var.js"
+      ],
+      "meteor/es5-shim": [
+        "/home/simon/.meteor/packages/es5-shim/4.8.0/web.browser/client.js",
+        "/home/simon/.meteor/packages/es5-shim/4.8.0/web.browser/console.js",
+        "/home/simon/.meteor/packages/es5-shim/4.8.0/web.browser/cordova.js",
+        "/home/simon/.meteor/packages/es5-shim/4.8.0/web.browser/export_globals.js",
+        "/home/simon/.meteor/packages/es5-shim/4.8.0/web.browser/import_globals.js"
+      ],
+      "meteor/ecmascript": [
+        "/home/simon/.meteor/packages/ecmascript/0.16.8/web.browser/ecmascript.js"
+      ],
+      "meteor/shell-server": [
+        "/home/simon/.meteor/packages/shell-server/0.5.0/web.browser/main.js",
+        "/home/simon/.meteor/packages/shell-server/0.5.0/web.browser/shell-server.js"
+      ],
+      "meteor/accounts-password": [
+        "/home/simon/.meteor/packages/accounts-password/2.4.0/web.browser/password_client.js",
+        "/home/simon/.meteor/packages/accounts-password/2.4.0/web.browser/email_templates.js",
+        "/home/simon/.meteor/packages/accounts-password/2.4.0/web.browser/password_server.js"
+      ],
+      "meteor/react-meteor-data": [
+        "/home/simon/.meteor/packages/react-meteor-data/2.7.2/web.browser/index.js",
+        "/home/simon/.meteor/packages/react-meteor-data/2.7.2/web.browser/suspense/index.js"
+      ],
+      "meteor/matb33:collection-hooks": [
+        "/home/simon/.meteor/packages/matb33_collection-hooks/1.3.1/web.browser/client.js",
+        "/home/simon/.meteor/packages/matb33_collection-hooks/1.3.1/web.browser/advices.js",
+        "/home/simon/.meteor/packages/matb33_collection-hooks/1.3.1/web.browser/collection-hooks.js",
+        "/home/simon/.meteor/packages/matb33_collection-hooks/1.3.1/web.browser/find.js",
+        "/home/simon/.meteor/packages/matb33_collection-hooks/1.3.1/web.browser/findone.js",
+        "/home/simon/.meteor/packages/matb33_collection-hooks/1.3.1/web.browser/insert.js",
+        "/home/simon/.meteor/packages/matb33_collection-hooks/1.3.1/web.browser/remove.js",
+        "/home/simon/.meteor/packages/matb33_collection-hooks/1.3.1/web.browser/server.js",
+        "/home/simon/.meteor/packages/matb33_collection-hooks/1.3.1/web.browser/update.js",
+        "/home/simon/.meteor/packages/matb33_collection-hooks/1.3.1/web.browser/upsert.js",
+        "/home/simon/.meteor/packages/matb33_collection-hooks/1.3.1/web.browser/users-compat.js"
+      ],
+      "meteor/peerlibrary:meteor-packages": [
+        "/home/simon/.meteor/packages/peerlibrary_meteor-packages/2.1.5/web.browser/client.js",
+        "/home/simon/.meteor/packages/peerlibrary_meteor-packages/2.1.5/web.browser/package-server.js",
+        "/home/simon/.meteor/packages/peerlibrary_meteor-packages/2.1.5/web.browser/server.js"
+      ],
+      "meteor/accounts-meteor-developer": [
+        "/home/simon/.meteor/packages/accounts-meteor-developer/1.5.0/web.browser/notice.js",
+        "/home/simon/.meteor/packages/accounts-meteor-developer/1.5.0/web.browser/meteor-developer.js"
+      ],
+      "meteor/service-configuration": [
+        "/home/simon/.meteor/packages/service-configuration/1.3.3/web.browser/service_configuration_common.js",
+        "/home/simon/.meteor/packages/service-configuration/1.3.3/web.browser/service_configuration_server.js"
+      ],
+      "meteor/hot-module-replacement": [
+        "/home/simon/.meteor/packages/hot-module-replacement/0.5.3/web.browser/hot-api.js",
+        "/home/simon/.meteor/packages/hot-module-replacement/0.5.3/web.browser/client.js",
+        "/home/simon/.meteor/packages/hot-module-replacement/0.5.3/web.browser/server.js"
+      ],
+      "meteor/react-fast-refresh": [
+        "/home/simon/.meteor/packages/react-fast-refresh/0.2.8/web.browser/client.js",
+        "/home/simon/.meteor/packages/react-fast-refresh/0.2.8/web.browser/client-runtime.js",
+        "/home/simon/.meteor/packages/react-fast-refresh/0.2.8/web.browser/server.js"
+      ],
+      "meteor/check": [
+        "/home/simon/.meteor/packages/check/1.3.2/web.browser/match.js",
+        "/home/simon/.meteor/packages/check/1.3.2/web.browser/isPlainObject.js"
+      ],
+      "meteor/communitypackages:react-router-ssr": [
+        "/home/simon/.meteor/packages/communitypackages_react-router-ssr/3.0.4/web.browser/helpers.js",
+        "/home/simon/.meteor/packages/communitypackages_react-router-ssr/3.0.4/web.browser/version-check.js"
+      ],
+      "meteor/communitypackages:fast-render": [
+        "/home/simon/.meteor/packages/communitypackages_fast-render/4.0.8/web.browser/lib/client/fast_render.js",
+        "/home/simon/.meteor/packages/communitypackages_fast-render/4.0.8/web.browser/lib/client/auth.js",
+        "/home/simon/.meteor/packages/communitypackages_fast-render/4.0.8/web.browser/lib/client/boot.js",
+        "/home/simon/.meteor/packages/communitypackages_fast-render/4.0.8/web.browser/lib/client/ddp_update.js",
+        "/home/simon/.meteor/packages/communitypackages_fast-render/4.0.8/web.browser/lib/client/id_tools.js",
+        "/home/simon/.meteor/packages/communitypackages_fast-render/4.0.8/web.browser/lib/server/context.js",
+        "/home/simon/.meteor/packages/communitypackages_fast-render/4.0.8/web.browser/lib/server/fast_render.js",
+        "/home/simon/.meteor/packages/communitypackages_fast-render/4.0.8/web.browser/lib/server/publish_context.js",
+        "/home/simon/.meteor/packages/communitypackages_fast-render/4.0.8/web.browser/lib/server/routes.js",
+        "/home/simon/.meteor/packages/communitypackages_fast-render/4.0.8/web.browser/lib/server/utils.js"
+      ],
+      "meteor/socialize:base-model": [
+        "/home/simon/.meteor/packages/socialize_base-model/1.1.7/web.browser/entry-meteor.js",
+        "/home/simon/.meteor/packages/socialize_base-model/1.1.7/web.browser/base-model.js",
+        "/home/simon/.meteor/packages/socialize_base-model/1.1.7/web.browser/entry-rn.js"
+      ],
+      "meteor/cultofcoders:grapher": [
+        "/home/simon/.meteor/packages/cultofcoders_grapher/1.5.0/web.browser/main.client.js",
+        "/home/simon/.meteor/packages/cultofcoders_grapher/1.5.0/web.browser/main.server.js",
+        "/home/simon/.meteor/packages/cultofcoders_grapher/1.5.0/web.browser/lib/aggregate.js",
+        "/home/simon/.meteor/packages/cultofcoders_grapher/1.5.0/web.browser/lib/compose.js",
+        "/home/simon/.meteor/packages/cultofcoders_grapher/1.5.0/web.browser/lib/createQuery.js",
+        "/home/simon/.meteor/packages/cultofcoders_grapher/1.5.0/web.browser/lib/db.js",
+        "/home/simon/.meteor/packages/cultofcoders_grapher/1.5.0/web.browser/lib/extension.js",
+        "/home/simon/.meteor/packages/cultofcoders_grapher/1.5.0/web.browser/lib/exposure/exposure.config.schema.js",
+        "/home/simon/.meteor/packages/cultofcoders_grapher/1.5.0/web.browser/lib/exposure/exposure.js",
+        "/home/simon/.meteor/packages/cultofcoders_grapher/1.5.0/web.browser/lib/exposure/extension.js",
+        "/home/simon/.meteor/packages/cultofcoders_grapher/1.5.0/web.browser/lib/exposure/lib/cleanBody.js",
+        "/home/simon/.meteor/packages/cultofcoders_grapher/1.5.0/web.browser/lib/exposure/lib/cleanSelectors.js",
+        "/home/simon/.meteor/packages/cultofcoders_grapher/1.5.0/web.browser/lib/exposure/lib/enforceMaxDepth.js",
+        "/home/simon/.meteor/packages/cultofcoders_grapher/1.5.0/web.browser/lib/exposure/lib/enforceMaxLimit.js",
+        "/home/simon/.meteor/packages/cultofcoders_grapher/1.5.0/web.browser/lib/exposure/lib/restrictFields.js",
+        "/home/simon/.meteor/packages/cultofcoders_grapher/1.5.0/web.browser/lib/exposure/lib/restrictLinks.js",
+        "/home/simon/.meteor/packages/cultofcoders_grapher/1.5.0/web.browser/lib/graphql/index.js",
+        "/home/simon/.meteor/packages/cultofcoders_grapher/1.5.0/web.browser/lib/graphql/lib/astToBody.js",
+        "/home/simon/.meteor/packages/cultofcoders_grapher/1.5.0/web.browser/lib/graphql/lib/astToQuery.js",
+        "/home/simon/.meteor/packages/cultofcoders_grapher/1.5.0/web.browser/lib/graphql/lib/defaults.js",
+        "/home/simon/.meteor/packages/cultofcoders_grapher/1.5.0/web.browser/lib/links/config.schema.js",
+        "/home/simon/.meteor/packages/cultofcoders_grapher/1.5.0/web.browser/lib/links/constants.js",
+        "/home/simon/.meteor/packages/cultofcoders_grapher/1.5.0/web.browser/lib/links/extension.js",
+        "/home/simon/.meteor/packages/cultofcoders_grapher/1.5.0/web.browser/lib/links/linker.js",
+        "/home/simon/.meteor/packages/cultofcoders_grapher/1.5.0/web.browser/lib/links/lib/createSearchFilters.js",
+        "/home/simon/.meteor/packages/cultofcoders_grapher/1.5.0/web.browser/lib/links/linkTypes/base.js",
+        "/home/simon/.meteor/packages/cultofcoders_grapher/1.5.0/web.browser/lib/links/linkTypes/linkMany.js",
+        "/home/simon/.meteor/packages/cultofcoders_grapher/1.5.0/web.browser/lib/links/linkTypes/linkManyMeta.js",
+        "/home/simon/.meteor/packages/cultofcoders_grapher/1.5.0/web.browser/lib/links/linkTypes/linkOne.js",
+        "/home/simon/.meteor/packages/cultofcoders_grapher/1.5.0/web.browser/lib/links/linkTypes/linkOneMeta.js",
+        "/home/simon/.meteor/packages/cultofcoders_grapher/1.5.0/web.browser/lib/links/linkTypes/lib/smartArguments.js",
+        "/home/simon/.meteor/packages/cultofcoders_grapher/1.5.0/web.browser/lib/namedQuery/constants.js",
+        "/home/simon/.meteor/packages/cultofcoders_grapher/1.5.0/web.browser/lib/namedQuery/namedQuery.base.js",
+        "/home/simon/.meteor/packages/cultofcoders_grapher/1.5.0/web.browser/lib/namedQuery/namedQuery.client.js",
+        "/home/simon/.meteor/packages/cultofcoders_grapher/1.5.0/web.browser/lib/namedQuery/namedQuery.js",
+        "/home/simon/.meteor/packages/cultofcoders_grapher/1.5.0/web.browser/lib/namedQuery/namedQuery.server.js",
+        "/home/simon/.meteor/packages/cultofcoders_grapher/1.5.0/web.browser/lib/namedQuery/store.js",
+        "/home/simon/.meteor/packages/cultofcoders_grapher/1.5.0/web.browser/lib/namedQuery/cache/BaseResultCacher.js",
+        "/home/simon/.meteor/packages/cultofcoders_grapher/1.5.0/web.browser/lib/namedQuery/cache/MemoryResultCacher.js",
+        "/home/simon/.meteor/packages/cultofcoders_grapher/1.5.0/web.browser/lib/namedQuery/expose/extension.js",
+        "/home/simon/.meteor/packages/cultofcoders_grapher/1.5.0/web.browser/lib/namedQuery/expose/schema.js",
+        "/home/simon/.meteor/packages/cultofcoders_grapher/1.5.0/web.browser/lib/namedQuery/expose/lib/mergeDeep.js",
+        "/home/simon/.meteor/packages/cultofcoders_grapher/1.5.0/web.browser/lib/query/query.base.js",
+        "/home/simon/.meteor/packages/cultofcoders_grapher/1.5.0/web.browser/lib/query/query.client.js",
+        "/home/simon/.meteor/packages/cultofcoders_grapher/1.5.0/web.browser/lib/query/query.js",
+        "/home/simon/.meteor/packages/cultofcoders_grapher/1.5.0/web.browser/lib/query/query.server.js",
+        "/home/simon/.meteor/packages/cultofcoders_grapher/1.5.0/web.browser/lib/query/counts/collection.js",
+        "/home/simon/.meteor/packages/cultofcoders_grapher/1.5.0/web.browser/lib/query/counts/constants.js",
+        "/home/simon/.meteor/packages/cultofcoders_grapher/1.5.0/web.browser/lib/query/counts/countSubscription.js",
+        "/home/simon/.meteor/packages/cultofcoders_grapher/1.5.0/web.browser/lib/query/counts/createFauxSubscription.js",
+        "/home/simon/.meteor/packages/cultofcoders_grapher/1.5.0/web.browser/lib/query/counts/genEndpoint.server.js",
+        "/home/simon/.meteor/packages/cultofcoders_grapher/1.5.0/web.browser/lib/query/hypernova/aggregateSearchFilters.js",
+        "/home/simon/.meteor/packages/cultofcoders_grapher/1.5.0/web.browser/lib/query/hypernova/assembler.js",
+        "/home/simon/.meteor/packages/cultofcoders_grapher/1.5.0/web.browser/lib/query/hypernova/buildVirtualNodeProps.js",
+        "/home/simon/.meteor/packages/cultofcoders_grapher/1.5.0/web.browser/lib/query/hypernova/constants.js",
+        "/home/simon/.meteor/packages/cultofcoders_grapher/1.5.0/web.browser/lib/query/hypernova/hypernova.js",
+        "/home/simon/.meteor/packages/cultofcoders_grapher/1.5.0/web.browser/lib/query/hypernova/processVirtualNode.js",
+        "/home/simon/.meteor/packages/cultofcoders_grapher/1.5.0/web.browser/lib/query/hypernova/storeHypernovaResults.js",
+        "/home/simon/.meteor/packages/cultofcoders_grapher/1.5.0/web.browser/lib/query/hypernova/lib/cleanObjectForMetaFilters.js",
+        "/home/simon/.meteor/packages/cultofcoders_grapher/1.5.0/web.browser/lib/query/hypernova/lib/snapBackDottedFields.js",
+        "/home/simon/.meteor/packages/cultofcoders_grapher/1.5.0/web.browser/lib/query/lib/applyProps.js",
+        "/home/simon/.meteor/packages/cultofcoders_grapher/1.5.0/web.browser/lib/query/lib/callWithPromise.js",
+        "/home/simon/.meteor/packages/cultofcoders_grapher/1.5.0/web.browser/lib/query/lib/createGraph.js",
+        "/home/simon/.meteor/packages/cultofcoders_grapher/1.5.0/web.browser/lib/query/lib/dotize.js",
+        "/home/simon/.meteor/packages/cultofcoders_grapher/1.5.0/web.browser/lib/query/lib/fieldInProjection.js",
+        "/home/simon/.meteor/packages/cultofcoders_grapher/1.5.0/web.browser/lib/query/lib/intersectDeep.js",
+        "/home/simon/.meteor/packages/cultofcoders_grapher/1.5.0/web.browser/lib/query/lib/params.js",
+        "/home/simon/.meteor/packages/cultofcoders_grapher/1.5.0/web.browser/lib/query/lib/prepareForDelivery.js",
+        "/home/simon/.meteor/packages/cultofcoders_grapher/1.5.0/web.browser/lib/query/lib/prepareForProcess.js",
+        "/home/simon/.meteor/packages/cultofcoders_grapher/1.5.0/web.browser/lib/query/lib/recursiveCompose.js",
+        "/home/simon/.meteor/packages/cultofcoders_grapher/1.5.0/web.browser/lib/query/lib/recursiveFetch.js",
+        "/home/simon/.meteor/packages/cultofcoders_grapher/1.5.0/web.browser/lib/query/nodes/collectionNode.js",
+        "/home/simon/.meteor/packages/cultofcoders_grapher/1.5.0/web.browser/lib/query/nodes/fieldNode.js",
+        "/home/simon/.meteor/packages/cultofcoders_grapher/1.5.0/web.browser/lib/query/nodes/reducerNode.js",
+        "/home/simon/.meteor/packages/cultofcoders_grapher/1.5.0/web.browser/lib/query/reducers/extension.js",
+        "/home/simon/.meteor/packages/cultofcoders_grapher/1.5.0/web.browser/lib/query/reducers/lib/addExpanders.js",
+        "/home/simon/.meteor/packages/cultofcoders_grapher/1.5.0/web.browser/lib/query/reducers/lib/addFieldMap.js",
+        "/home/simon/.meteor/packages/cultofcoders_grapher/1.5.0/web.browser/lib/query/reducers/lib/applyReducers.js",
+        "/home/simon/.meteor/packages/cultofcoders_grapher/1.5.0/web.browser/lib/query/reducers/lib/cleanReducerLeftovers.js",
+        "/home/simon/.meteor/packages/cultofcoders_grapher/1.5.0/web.browser/lib/query/reducers/lib/createReducers.js",
+        "/home/simon/.meteor/packages/cultofcoders_grapher/1.5.0/web.browser/lib/query/reducers/lib/embedReducerWithLink.js"
       ]
-    }
-  }
+    },
+    "checkJs": true,
+    "allowJs": true,
+    "jsx": "react"
+  },
+  "typeAcquisition": {
+    "include": [
+      "meteor"
+    ]
+  },
+  "exclude": [
+    "node_modules",
+    ".meteor"
+  ]
 }

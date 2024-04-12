@@ -20,7 +20,7 @@ interface LinkOrNotProps {
 const LinkOrNot = ({ link, to, children, ...props }: LinkOrNotProps): JSX.Element => {
   return link
     ? <Link to={to} {...props} >{children}</Link>
-    : <span className='text-blueGray-600' {...props}>{children}</span>;
+    : <span className='text-slate-600' {...props}>{children}</span>;
 };
 
 const Pagination = ({ totalPages = 0, loading = false, message = 'No Results...' }: PaginationProps): JSX.Element => {
@@ -36,7 +36,7 @@ const Pagination = ({ totalPages = 0, loading = false, message = 'No Results...'
 
   return (
     <>
-      <span className={`animate-spin rounded-full text-blueGray-400 ${showLoader}`}>
+      <span className={`animate-spin rounded-full text-slate-400 ${showLoader}`}>
         <Refresh size={22} className="h-6 w-6" style={{ transform: 'scaleX(-1)' }}/>
       </span>
       <span className="flex items-center">

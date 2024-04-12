@@ -82,11 +82,11 @@ export default ({ onApply, onCancel, initialValues }: SearchFiltersProps): JSX.E
     <>
       <div className="mb-8">
         <h1 className="text-xl font-semibold text-gray-200 pb-3">Search Filters</h1>
-        <hr className="border-b-1 border-blueGray-400" />
+        <hr className="border-b-1 border-slate-400" />
       </div>
       <div className="flex justify-between items-end h-11">
         <label>Sort By</label>
-        <select value={filterState.sort} name="sort" onChange={handleSelectChange} className="w-1/2 bg-blueGray-800 rounded-md focus:outline:none focus:ring-0 focus:border-coolGray-500">
+        <select value={filterState.sort} name="sort" onChange={handleSelectChange} className="w-1/2 bg-slate-800 rounded-md focus:outline:none focus:ring-0 focus:border-coolGray-500">
           {sortOptions.map(option => (
             <option key={option.value} value={option.value}>
               {option.label}
@@ -96,7 +96,7 @@ export default ({ onApply, onCancel, initialValues }: SearchFiltersProps): JSX.E
       </div>
       <div className="flex justify-between items-end h-11">
         <label>Published Within</label>
-        <select value={filterState.published} name="published" onChange={handleSelectChange} className="w-1/2 bg-blueGray-800 rounded-md focus:outline:none focus:ring-0 focus:border-coolGray-500">
+        <select value={filterState.published} name="published" onChange={handleSelectChange} className="w-1/2 bg-slate-800 rounded-md focus:outline:none focus:ring-0 focus:border-coolGray-500">
           {publishedOptions.map(option => (
             <option value={option.value} key={option.value}>
               {option.label}
@@ -106,10 +106,10 @@ export default ({ onApply, onCancel, initialValues }: SearchFiltersProps): JSX.E
       </div>
       <div className="flex justify-between items-end h-11">
         <label>Include Deprecated</label>
-        <div className="w-1/2"><input className="w-6 h-6 focus:outline-none focus:shadow-none focus:ring-0 focus:ring-offset-0 checked:border-coolGray-500 p-3 bg-blueGray-800 text-blueGray-800 rounded-md" type="checkbox" name="deprecated" onChange={handleCheckboxChange} checked={filterState.deprecated === 'true'} /></div>
+        <div className="w-1/2"><input className="w-6 h-6 focus:outline-none focus:shadow-none focus:ring-0 focus:ring-offset-0 checked:border-coolGray-500 p-3 bg-slate-800 text-slate-800 rounded-md" type="checkbox" name="deprecated" onChange={handleCheckboxChange} checked={filterState.deprecated === 'true'} /></div>
       </div>
       <div className="flex justify-center items-end h-11">
-        <button onClick={handleClearFilters} className="active:text-blueGray-800">Clear Filters</button>
+        <button onClick={handleClearFilters} className="active:text-slate-800">Clear Filters</button>
       </div>
       <div className="flex space-x-4 pt-6">
         <button onClick={() => onApply(filterState, numAppliedFilters.current)} className="flex-grow px-4 py-2 bg-yellow-600 font-bold rounded-md">Apply</button>

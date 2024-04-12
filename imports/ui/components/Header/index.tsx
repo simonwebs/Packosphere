@@ -90,7 +90,7 @@ const HeaderComponent = (): JSX.Element => {
     Meteor.loginWithMeteorDeveloperAccount();
   };
   return (
-    <header className="px-4 bg-gradient-to-t from-blueGray-800 to-blueGray-900">
+    <header className="px-4 bg-gradient-to-t from-slate-800 to-slate-900">
       <div className="flex justify-center md:justify-end container m-auto py-5">
         <ul className="flex space-x-5">
           {links.map(link => (
@@ -118,7 +118,7 @@ const HeaderComponent = (): JSX.Element => {
           </div>
         </Link>
         <div className="flex items-center space-x-5">
-          <button onClick={openModalHandler} className="relative items-center justify-center w-12 h-12 flex flex-shrink-0 rounded-md focus:outline-none hover:bg-blueGray-600 active:bg-blueGray-700" aria-label="Search">
+          <button onClick={openModalHandler} className="relative items-center justify-center w-12 h-12 flex flex-shrink-0 rounded-md focus:outline-none hover:bg-slate-600 active:bg-slate-700" aria-label="Search">
             <AdjustmentsOutline size={28} className="z-0" />
             {totalAppliedFilters > 0 ? <span className="absolute w-5 h-5 z-10 -top-0 right-0 text-sm font-semibold bg-yellow-500 rounded-full flex items-center justify-center">{totalAppliedFilters}</span> : null}
           </button>
@@ -136,7 +136,7 @@ const HeaderComponent = (): JSX.Element => {
           <div className="flex items-center justify-center flex-shrink-0">
             {Meteor.userId() !== null
               ? <img src={userImage} alt={`${user?.profile.name}'s Avatar`} className="w-11 h-11 rounded-full ring-2 ring-yellow-600 ring-offset-2 flex-shrink-0" />
-              : <button onClick={loginHandler} title="Log In" className="flex items-center justify-center w-10 h-10 rounded-full ring-4 ring-blueGray-500 bg-blueGray-600 flex-shrink-0 focus:outline-none" >
+              : <button onClick={loginHandler} title="Log In" className="flex items-center justify-center w-10 h-10 rounded-full ring-4 ring-slate-500 bg-slate-600 flex-shrink-0 focus:outline-none" >
                 <Login size={22} />
               </button>
             }

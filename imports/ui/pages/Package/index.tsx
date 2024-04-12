@@ -76,7 +76,7 @@ const PackagePage = (): JSX.Element => {
   switch (age) {
     case 0:
     case 1:
-      publishedIndicator = 'text-blueGray-400';
+      publishedIndicator = 'text-slate-400';
       break;
     case 2:
       publishedIndicator = 'text-yellow-300';
@@ -113,7 +113,7 @@ const PackagePage = (): JSX.Element => {
             <div className="flex flex-col space-y-2">
               <h1 className="text-3xl font-semibold">{displayVersion.packageName}</h1>
               <p className="flex space-x-2">
-                <span className="text-blueGray-400">
+                <span className="text-slate-400">
                   v{displayVersion?.version}
                 </span>
                 <span>&bull;</span>
@@ -133,7 +133,7 @@ const PackagePage = (): JSX.Element => {
             <aside className="flex flex-col space-y-6 lg:order-2 xl:col-span-1">
               <div>
                 <h3 className="text-yellow-500 text-lg mb-4">Installation</h3>
-                <div className="flex items-center border-blueGray-600 border px-4 py-2 overflow-hidden whitespace-pre rounded-md space-x-4">
+                <div className="flex items-center border-slate-600 border px-4 py-2 overflow-hidden whitespace-pre rounded-md space-x-4">
                   <Terminal size={22} className="flex-none" />
                   <code className="select-all">
                     meteor add {pkg.packageName}
@@ -145,9 +145,9 @@ const PackagePage = (): JSX.Element => {
                   <div>
                     <h3 className="flex items-center justify-between text-yellow-500 text-lg mb-4">
                       <span>Repo</span>
-                      <span className="text-xs text-blueGray-400">{typeof pkg.meta.repoInfo.pushed_at !== 'undefined' && `Pushed ${ago(new Date(pkg.meta.repoInfo.pushed_at))}`}</span>
+                      <span className="text-xs text-slate-400">{typeof pkg.meta.repoInfo.pushed_at !== 'undefined' && `Pushed ${ago(new Date(pkg.meta.repoInfo.pushed_at))}`}</span>
                     </h3>
-                    <a href={pkg.git} target="_blank" className="flex items-center border-blueGray-600 border px-4 py-2 overflow-hidden whitespace-pre rounded-md space-x-4">
+                    <a href={pkg.git} target="_blank" className="flex items-center border-slate-600 border px-4 py-2 overflow-hidden whitespace-pre rounded-md space-x-4">
                       <ExternalLinkOutline size={22} className="flex-none" />
                       <span>{pkg.git}</span>
                     </a>
@@ -168,7 +168,7 @@ const PackagePage = (): JSX.Element => {
                   </div>
                   <div className="flex space-x-6 items-center">
                     <span className="flex w-7 h-7 bg-white items-end justify-end rounded-sm">
-                      <span className="text-blueGray-800 font-extrabold text-xl font-mono -mb-1">
+                      <span className="text-slate-800 font-extrabold text-xl font-mono -mb-1">
                         {pkg.meta.repoInfo.language === 'TypeScript' ? 'TS' : 'JS'}
                       </span>
                     </span>
@@ -181,7 +181,7 @@ const PackagePage = (): JSX.Element => {
 
               <div>
                 <h3 className="text-yellow-500 text-lg mb-4">Versions</h3>
-                <div className="flex flex-col border-blueGray-600 border px-4 py-4 overflow-hidden whitespace-pre rounded-md space-y-4">
+                <div className="flex flex-col border-slate-600 border px-4 py-4 overflow-hidden whitespace-pre rounded-md space-y-4">
                   {pkg.versions.map(version => {
                     return (
                       <Link to={`/${username}/${packagename}/${version.version}`} className="flex items-center space-x-2" key={version._id} >
@@ -195,13 +195,13 @@ const PackagePage = (): JSX.Element => {
             </aside>
             <article className="lg:order-1 xl:col-span-3">
               {typeof displayVersion.readme !== 'undefined' && displayVersion.readme.fullText !== null
-                ? <div className="markdown-body bg-blueGray-700 rounded-md px-5 py-7">
+                ? <div className="markdown-body bg-slate-700 rounded-md px-5 py-7">
                   {typeof displayVersion.readme.fullText !== 'undefined'
                     ? <ReactMarkdown skipHtml plugins={[gfm]} components={renderers} children={`${displayVersion.readme?.fullText ?? ''}`} />
                     : <p className="text-2xl text-center">Loading...</p>
                   }
                 </div>
-                : <div className="flex flex-col items-center space-y-10 flex-auto text-center py-10 bg-blueGray-600 rounded-md">
+                : <div className="flex flex-col items-center space-y-10 flex-auto text-center py-10 bg-slate-600 rounded-md">
                   <h1 className="text-2xl font-bold">No Documentation</h1>
                   <Exclamation size={40} className="text-yellow-500" />
                   <p>This package does not contain a README file.</p>
